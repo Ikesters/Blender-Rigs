@@ -1,6 +1,6 @@
 RIG NAME   : Lieutenant Dan
-VERSION    : 1.0.0
-LAST UPDATE: 02/06/2015
+VERSION    : 1.0.1
+LAST UPDATE: 02/07/2015
 
 AUTHORS:
     - Matt Ornstein (http://mattornstein.com/ ) *Original MAYA Version*
@@ -55,8 +55,6 @@ BLENDER FEATURES:
 
 
 KNOWN ISSUES:
-    - UV's are unfinished, only the body (The Sphere) has been corrected
-    
     - Translating ctrl_floatPivot rotating and then moving that control again..
       will result in erratic translations of ctrl_COG.
       *Some counter animation is required if this situation arrises*
