@@ -1,6 +1,7 @@
+
 RIG NAME   : Lieutenant Dan
 VERSION    : 1.0.1
-LAST UPDATE: 02/07/2015
+LAST UPDATE: 02/10/2015
 
 AUTHORS:
     - Matt Ornstein (http://mattornstein.com/ ) *Original MAYA Version*
@@ -8,20 +9,23 @@ AUTHORS:
 
 DESCRIPTION:
     Lieutenant Dan is a simple bipedal ball with an optional tail accessory.
-    Great for simple animations, or for those just learning the basics.
-    
-    **Though this character has been ported over to Blender by me,
+
+
+License:
     **I do not claim copyright over the source material or exported geometry.
-    **However, the Blender rig setup and functions are of my own design.
+    **Rig ported and distributed with permission from Matt Ornstein.
+
+    **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+    **http://creativecommons.org/licenses/by-nc-nd/4.0/
 
 
 ORIGINAL MAYA FEATURES:
    - Root Mover
-   - Hips mover
+   - Body mover
    - Rim Mover
    - Body squash n' stretch (Up and down only)
    - FK tail which can be hidden
-   - "IK Only" legs:
+   - IK legs:
         + Both leg joints stretch as a whole
         + Auto stretch: Stretch the leg to match where the foot is
         + Roll        : Rock the foot forwards and back *Limited Motion*
@@ -29,27 +33,20 @@ ORIGINAL MAYA FEATURES:
         + Ball Twist  : Twist the foot on its ball
         + Toe Twist   : Twist the foot on its toe
 
-BLENDER FEATURES:
-   - Root Mover
+BLENDER+ FEATURES:
+   - Extra Body/Hips Mover
    - Global pivot mover
-   - Center of gravity mover
-   - Hips mover
-   - Rim Mover
-   - Body squash n' stretch (Up and down only)
-   - FK tail which can be hidden:
-        + Tail can be repositioned on the body
+   - Tail can be repositioned on the body
    - FK legs:
         + Geometry and controls can be hidden
         + Both limb segments can be RESIZED INDEPENDENTLY
-        + Space switching between root and body
         + Origin point can be repositioned
+        + Space switching between root and body
    - IK legs:
         + Geometry and controls can be hidden
-        + Origin point can be repositioned
         + Both leg joints can be RESIZED INDEPENDENTLY
-        + Auto stretch: Stretch the leg to match where the foot is
-        + Foot Rock: Rock the WHOLE FOOT forwards and back
-        + Foot twisting at the toe, ball and heel
+        + Origin point can be repositioned
+        + Foot twisting at heel
         + Indepenent controls for both the toe and heel
         + Knee pinning
 
