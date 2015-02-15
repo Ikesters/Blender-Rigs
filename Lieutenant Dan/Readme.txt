@@ -1,7 +1,7 @@
 
 RIG NAME   : Lieutenant Dan
-VERSION    : 1.0.1
-LAST UPDATE: 02/10/2015
+VERSION    : 1.1.0
+LAST UPDATE: 02/15/2015
 
 AUTHORS:
     - Matt Ornstein (http://mattornstein.com/ ) *Original MAYA Version*
@@ -38,17 +38,20 @@ BLENDER+ FEATURES:
    - Global pivot mover
    - Tail can be repositioned on the body
    - FK legs:
-        + Geometry and controls can be hidden
+        + Geometry and controls can be hidden INDEPENDENTLY
         + Both limb segments can be RESIZED INDEPENDENTLY
         + Origin point can be repositioned
         + Space switching between root and body
    - IK legs:
-        + Geometry and controls can be hidden
+        + Geometry and controls can be hidden INDEPENDENTLY
         + Both leg joints can be RESIZED INDEPENDENTLY
         + Origin point can be repositioned
         + Foot twisting at heel
         + Indepenent controls for both the toe and heel
         + Knee pinning
+
+KEYING SETS:
+    - All controls: Key every control on Lieutenant Dan
 
 
 KNOWN ISSUES:
