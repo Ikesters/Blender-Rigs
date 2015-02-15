@@ -10,13 +10,13 @@ ks.bl_description = "Key all controls fro Lieutenant Dan"
 ks.bl_options = set()
 
 # ID's that are commonly used
-id_0 = bpy.data.objects["Lieutenant_Dan"]
+id_0 = bpy.data.objects["lieutenant_Dan"]
 
 # Path Definitions
 ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"].location', index=-1)
 ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"].rotation_euler', index=-1)
 ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"].scale', index=-1)
-ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"]["Show left leg"]', index=-1, group_method='NONE')
+ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"]["Show left leg"]', index=-1)
 ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"]["Show right leg"]', index=-1)
 ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_ROOT"]["Show tail"]', index=-1)
 ksp = ks.paths.add(id_0, 'pose.bones["Ctrl_IK_Foot.L"].location', index=-1)
